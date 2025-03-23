@@ -16,16 +16,18 @@ body{
     color: #F1C40F;
     font-weight: lighter;
 }
+.grey-title{
+    color: #333333;
+}
 .pd-container{
     padding: 100px 200px;
 }
 .mg-container{
-    margin: 130px 0 70px 0;
+    margin: 170px 0 170px 0;
 }
 section h2{
     font-size: 2.5rem;
-    color: #333333;
-    font-weight: 300;
+    font-weight:300;
 }
 /* *************************HEADER STYLE******************************************** */
 header{
@@ -85,6 +87,7 @@ nav ul li a:hover{
     background-color: white;
     width: 30%;
     height: 500px;
+    border:1px solid #d8d7d7;
 }
 .card img{
     width: 100%;
@@ -106,4 +109,34 @@ nav ul li a:hover{
     border-style: solid;
     width: 50px;
     height: 2px;
+}
+/* ********************************************ABOUT SECTION************************************************* */
+.about{
+    height: 600px;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.about .about-image{
+    background: url(images/Team.jpg) center center/cover;
+    overflow: hidden;
+    width: 50%;
+}
+.about .about-content{
+    width: 40%;
+    color: white;
+    margin: auto;
+}
+
+.about .about-content h2{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.about .about-content span{
+    font-weight: 400;
+}
+.about .about-content p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 }
