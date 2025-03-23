@@ -1,0 +1,73 @@
+/* ******************************GENERAL STYLE************************************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEEEE;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mg-top-bottom{
+    margin: 2rem auto;
+}
+.yellow-title{
+    color: #F1C40F;
+    font-weight: lighter;
+}
+.pd-container{
+    padding: 100px 200px;
+}
+section h2{
+    font-size: 2.5rem;
+    color: #333333;
+    font-weight: 300;
+}
+/* *************************HEADER STYLE******************************************** */
+header{
+    background-color: #333333;
+    display: flex;
+    padding: 0 50px;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-family: "Cedarville Cursive", cursive;
+    color: white;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+nav ul li a:hover{
+    color: #F1C40F;
+
+}
+/* ********************************************BANNER STYLE************************************************* */
+.banner{
+    background: url(./images/bizerte.jpg) center center/cover;
+    height: 525px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+.banner h1{
+    font-size: 3rem;
+}
+.banner p{
+    font-size: 2rem;
+}
