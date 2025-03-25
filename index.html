@@ -9,18 +9,16 @@
 <script src="https://kit.fontawesome.com/f164752a93.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 
-    <title>Agence</title>
+    <title>Agence Chourouk</title>
 </head>
 <body>
     <header>
-        <div class="header-item">
-            <h1><i class="fa-solid fa-crown yellow-colored"></i>Om Sefsari</h1>
-        </div>
-        <nav class="header-item">
+            <h1><i class="fa-solid fa-crown yellow-colored"></i>Agence Chourouk</h1>
+        <nav>
             <ul>
-                <li><a href="#">Nos offres</a></li>
-                <li><a href="#">Notre équipe</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#offers">Nos offres</a></li>
+                <li><a href="#about-section">Notre équipe</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -75,6 +73,54 @@
             </div>
         </div>
     </section>
-    <footer></footer>
+    <section id="testimonials-section" class="mg-container">
+        <h2 class="mg-top-bottom">Voici ce qu'ils pensent de nous</h2>
+        <div class="testimonials">
+            <div class="testimonials-item">
+               <div  class="quote">
+                 <p><i class="fa-solid fa-quote-left fa-2x"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, sint.<i class="fa-solid fa-quote-right fa-2x"></i></p>
+               </div>
+               <div class="testtimonials-profile">
+                <img src="./images/Person-1.jpg" alt="Jean Dupont">
+                <p>Jean Dupont</p>
+                <p>CEO étoile</p>
+            </div>
+            </div>
+            <div class="testimonials-item">
+                <div class="testtimonials-profile">
+                    <img src="./images/Person-2.jpg" alt="Arthur Lac">
+                    <p>Arthur Lac</p>
+                    <p>Développeur Web</p>
+                </div>
+                <div class="quote">
+                    <p><i class="fa-solid fa-quote-left fa-2x"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquam alias velit est consequuntur ducimus quidem sint iure repudiandae mollitia accusamus, inventore impedit sit similique. Labore laboriosam natus quisquam dicta.<i class="fa-solid fa-quote-right fa-2x"></i></p>
+                </div>
+            </div>
+            <div class="testimonials-item">
+                <div  class="quote">
+                    <p><i class="fa-solid fa-quote-left fa-2x"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vero dolorum consequatur soluta nostrum nemo!<i class="fa-solid fa-quote-right fa-2x"></i></p>
+                </div>
+                <div class="testtimonials-profile">
+                    <img src="./images/Person-3.jpg" alt="Julie Roux">
+                    <p>Julie Roux</p>
+                    <p>Développeuse Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <div class="contact">
+            <h2>Pour nous <span>contacter</span></h2>
+            <form>
+                <input type="text"  name="nom" id="nom" placeholder="Nom" >
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="text" name="msg" id="msg" placeholder="Votre Message...">
+                <button >Soumettre</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2025 Chourouk Bejaoui.</p>
+    </footer>
 </body>
 </html>
